@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384- GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <title>CanndyPets</title>
+</head>
+
+<body >
+    <header id="principal">
+        <div class="col-md-3">
+            <img src="./Imagenes/LogoCanndy.JPG" alt="Logo CanndyPets">
+        </div>
+
+
+        <div class="col-md-7">
+            <nav>
+                <ul>
+                    <a href="https://www.petco.com.mx/petco/en/PRODUCTOS/Perro/c/01-00-00?siteUid=petco&siteName=Petco+Mexico">
+                        <li>Perros</li>
+                    </a>
+                    <a href="https://www.petco.com.mx/petco/en/PRODUCTOS/Gato/c/02-00-00?siteName=Petco+Mexico">
+                        <li>Gatos</li>
+                    </a>
+                    <a href="https://www.petco.com.mx/farmacia">
+                        <li>Farmacia</li>
+                    </a>
+                    <a href="https://www.petco.com.mx/petco/en/PromocionesMes">
+                        <li>Promociones</li>
+                    </a>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+
+    <div class="presentacion" id="intro">
+        <img src="Imagenes/PuppiesNKitties2" alt="Puppies and Kitties">
+        <h1>¿Quienes Somos?</h1>
+        <p>Somos una compañia que te ofrece los mejores accesorios para tu mascota, desde juguetes. shampoos,
+            transportadoras, hasta snack saludables y comida para tus pequeños. Asi mismo nos dedicamos a
+            promover la adopcion de estos pequeños para poder darles una segunda oprotunidad y que puedan encontrar una
+            familia que los quiera.
+        </p>
+
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" class="carrusel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <h1><img src="Imagenes/carrusel1.jpg" class="d-block w-100" alt="..."></h1>
+                </div>
+                <div class="carousel-item">
+                    <h1><img src="Imagenes/Carrusel2.avif" class="d-block w-100" alt="..."></h1>
+                </div>
+                <div class="carousel-item">
+                    <h1><img src="Imagenes/carrusel3.jpg" class="d-block w-100" alt="..."></h1>
+                </div>
+                <div class="carousel-item">
+                <h1><img src="Imagenes/carrusel4" class="d-block w-100" alt="..."></h1>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <div class="main" class="row" >
+        <div class="box" class="col-md-4">
+            <img src="./Imagenes/PitbullPuppy,jpeg" alt="Pitbull Puppy">
+            <h1>Perros</h1>
+            <p>Todo para tus Peluditos</p>
+        </div>
+
+        <div class="box" class="col-md-4">
+            <a href="#adopcion"><img src="Imagenes/Adopcion.jpg" alt="Adopta"></a>
+            <h2>Adopta un amigo</h2>
+            <p>Informacion para Adopcion</p>
+        </div>
+
+        <div class="box" class="col-md-4">
+            <img src="Imagenes/gatitobbe.png" alt="Gatitos">
+            <h3>Gatos</h3>
+            <p>Los mejores juguetes para tu michi</p>
+        </div>
+
+    </div>
+
+    <div class="contenedor">
+        <div class="noticias">
+          <h1>¿Que se necesita para poder adoptar un perrito?        </h1>
+          <div id="contenido" >
+            <p> Se debera realizar el llenado de un formulario para la postulacion del adoptante, adjuntar informacion de contacto para que nuestro equipo pueda dar seguimiento a la solicitud y realizar los pasos a seguir, asegurarse que el perrito se encontrara en buenas condiciones
+                 y lugar apropiado, y que tendra un espacio suficiente para poder moverse.</p>
+          </div>
+          <button onclick='muestra_oculta("contenido")' class="btn btn-primary" form="contenido" >+</button>
+        </div>
+    </div>
+
+
+    <div class="inframe" id="videos">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3765.824096309921!2d-99.1470951!3d19.2900143!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce00554ef12751%3A0xaa71ae00c0b1d5c!2sForestal%20163%2C%20Coapa%2C%20Huipulco%2C%20Tlalpan%2C%2014370%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1ses!2smx!4v1709283325901!5m2!1ses!2smx"
+            width="400" height="300" style="border:3PX;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div class="inframe" id="videos" >
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/di_e5g6y2MA?si=tWS5IZmpR5UHrKPJ"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+    </div>
+
+    <div class="kirk" class="row" id="croqueta">
+        <div class="box" class="col-md-6">
+            <h1>KirKland las mejores croquetas, recomendadas por nosotros!!</h1>
+            <a href="https://www.youtube.com/watch?v=ux9rcQ2HwrI&t=1s"><img src="Imagenes/dogfoodreview_kirklandbanner784x295.jpg" alt="Kirkland review"></a>
+        </div>
+
+        <div class="box" class="col-md-6">
+            <a href="https://www.youtube.com/watch?v=3WLWk_fE1Uw"><img src="Imagenes/catkirk.jpeg" alt="Kirkland review"></a>
+        </div>
+    </div>
+
+    <div class="docc" id="adopcion">
+
+        <a href="https://www.apasdem.org.mx/wp-content/uploads/2021/01/SOLICITUDDEADOPCEne212021.pdf"><img
+                src="Imagenes/AdoptaPerro.jpg" alt="Adopta Perro"></a>
+    </div>
+
+    <footer>
+        <p>Canndy Pets es una tienda especializada en productos para mascota, creada en el 2023.</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
